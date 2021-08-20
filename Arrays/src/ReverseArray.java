@@ -1,8 +1,6 @@
-import java.sql.SQLOutput;
-import java.util.*;
-import java.lang.*;
+import java.util.Scanner;
 
-public class ReverseArray{
+public class ReverseArray {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -19,6 +17,8 @@ public class ReverseArray{
         Algo :
             Use the concept of swapping. We will swap the first element with the last element of the array.
             Similarly, second element with second last element and so on.
+                    Time Complexity - O(n)
+                    Space Complexity - O(1)
      */
     static void reverseArray(int arr[]){
         int l = 0, r = arr.length-1;
